@@ -1,0 +1,10 @@
+<mvc:View
+    controllerName="project2.controller.NotFound"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="m2">
+    <Label id="s2" text="error notfound"/>
+    </Page>
+
+    
+</mvc:View> 

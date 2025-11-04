@@ -70,7 +70,8 @@
         "controlId": "app",
         "controlAggregation": "pages",
         "transition": "slide",
-        "async": true
+        "async": true,
+        "bypassed": {"target":"Notfound"}
       },
       "routes": [
         {
@@ -92,6 +93,10 @@
         "TargetView2": {
           "viewName": "View2",
           "viewId": "View2"
+        },
+        "Notfound": {
+          "viewName": "NotFound",
+          "viewId": "View3"
         }
       }
     }
