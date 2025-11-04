@@ -1,0 +1,37 @@
+{
+  "employees": [
+    {
+      "id": "E001",
+      "name": "Rajesh Kumar",
+      "role": "Software Engineer",
+      "rating": 4.8,
+      "department": "IT",
+      "age": 26,
+      "email": "rajesh.kumar@example.com",
+      "phone": "+91 9876543210",
+      "address": "Hyderabad, India"
+    },
+    {
+      "id": "E002",
+      "name": "Priya Singh",
+      "role": "UI Developer",
+      "rating": 4.5,
+      "department": "Frontend",
+      "age": 24,
+      "email": "priya.singh@example.com",
+      "phone": "+91 9654321870",
+      "address": "Chennai, India"
+    },
+    {
+      "id": "E003",
+      "name": "Amit Verma",
+      "role": "Project Manager",
+      "rating": 4.7,
+      "department": "Management",
+      "age": 30,
+      "email": "amit.verma@example.com",
+      "phone": "+91 9998765432",
+      "address": "Bangalore, India"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<mvc:View
+    controllerName="project2.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="_IDGenPage1" title="Employee Directory">
+        <List
+            id="empList"
+            items="{/employees}">
+            <ObjectListItem id="_IDGenObjectListItem" title="{name}" number="{rating}" numberUnit="Rating" intro="{role}" press="onSelect" type="Navigation">
+                <attributes>
+                    <ObjectAttribute id="_IDGenObjectAttribute" title="ID" text="{id}" />
+                </attributes>
+            </ObjectListItem>
+        </List>
+    </Page>
+</mvc:View>

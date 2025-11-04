@@ -1,0 +1,21 @@
+<mvc:View
+    controllerName="project2.controller.View2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="_IDGenPage" title="Employee Details" showNavButton="true" navButtonPress=".onNavBack">
+        <ObjectHeader id="_IDGenObjectHeader1"
+            title="{name}"
+            number="{rating}"
+            numberUnit="Rating"
+            intro="{role}">
+            <attributes>
+                <ObjectAttribute id="_IDGenObjectAttribute1" title="ID" text="{id}" />
+                <ObjectAttribute id="_IDGenObjectAttribute2" title="Department" text="{department}" />
+                <ObjectAttribute id="_IDGenObjectAttribute3" title="Age" text="{age}" />
+                <ObjectAttribute id="_IDGenObjectAttribute4" title="Email" text="{email}" />
+                <ObjectAttribute id="_IDGenObjectAttribute5" title="Phone" text="{phone}" />
+                <ObjectAttribute id="_IDGenObjectAttribute6" title="Address" text="{address}" />
+            </attributes>
+        </ObjectHeader>
+    </Page>
+</mvc:View>
